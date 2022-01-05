@@ -6,6 +6,7 @@ Required:
 
 Recommended: 
 - VSCode
+- Use bootstrap docs (https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 
 Tasks 
 
@@ -17,6 +18,7 @@ a limiter for the amount of cat photos returned. The cat photos are stored in
 {workplacePath}/ClientApp/public/photos. the files have random names. 
 
 Front end - 
+
 We need to display an infinite amount of cat photos with their names on the right. 
 The cat photo should be circular. Refer to UX.jpg provided. The show more button will
 call /cat/[5-15] endpoint. This will request 5-15 random cat profile photos.  
@@ -24,7 +26,7 @@ call /cat/[5-15] endpoint. This will request 5-15 random cat profile photos.
 
 Tips:
 Use best practices.
-Don't worry if you dont finish every thing. 
+Don't worry if you don't finish every thing. 
 Frontend is setup with bootstrap.
 
 
