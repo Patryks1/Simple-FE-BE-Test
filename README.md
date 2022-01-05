@@ -20,7 +20,7 @@ a limiter for the amount of cat photos returned. The cat photos are stored in
 Front end - 
 
 We need to display an infinite amount of cat photos with their names on the right. 
-The cat photo should be circular. Refer to UX.jpg provided. The show more button will
+The cat photo should be circular. Refer to UX.png provided. The show more button will
 call /cat/[5-15] endpoint. This will request 5-15 random cat profile photos.  
 
 
@@ -28,6 +28,8 @@ Tips:
 Use best practices.
 Don't worry if you don't finish every thing. 
 Frontend is setup with bootstrap.
+The frontend proxy is setup to accept /cat/{limit} no absolute url is needed in fetch request.
+If you have any questions please ask them. 
 
 
 
