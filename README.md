@@ -8,6 +8,7 @@ Recommended:
 - VSCode
 - Use bootstrap docs (https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 
+
 Tasks 
 
 Backend - 
@@ -25,11 +26,13 @@ call /cat/[5-15] endpoint. This will request 5-15 random cat profile photos.
 
 
 Tips:
-Use best practices.
-Don't worry if you don't finish every thing. 
-Frontend is setup with bootstrap.
-The frontend proxy is setup to accept /cat/{limit} no absolute url is needed in fetch request.
-If you have any questions please ask them. 
+
+* Use best practices.
+* Don't worry if you don't finish every thing. 
+* Frontend is setup with bootstrap.
+* You can create new files.
+* The frontend proxy is setup to accept /cat/{limit} no absolute url is needed in fetch request.
+* If you have any questions please ask them. 
 
 
 
