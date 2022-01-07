@@ -18,27 +18,5 @@ public class CatController : ControllerBase
   {
     _logger = logger;
   }
-
-  public class CatInformation 
-  {
-    public CatInformation(string name, string photo) {
-      this.Name = name;
-      this.Photo = photo;
-    }
-
-    public string Name { get; private set; }
-    public string Photo { get; private set; }
-  }
-
-  // Controller should be cleaned up 
-  [HttpGet]
-  [Route("{limit}")]
-  public IEnumerable<CatInformation> Get(int limit)
-  {
-    var currentDirectory = Directory.GetCurrentDirectory();
-    DirectoryInfo catPhotosDirectory = new DirectoryInfo($"{currentDirectory}/ClientApp/public/photos");
-    FileInfo[] catPhotos = catPhotosDirectory.GetFiles("*.jpg");
-
-    return Enumerable.Range(1, limit).Select(index => new CatInformation(CatNames[Random.Shared.Next(CatNames.Length)], catPhotos[Random.Shared.Next(catPhotos.Length)].Name)).ToArray();
-  }
+  
 }
