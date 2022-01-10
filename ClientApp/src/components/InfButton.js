@@ -5,6 +5,10 @@ const InfButton = () => {
   
   return (
     <div>
+      {
+        // Documentation 
+        // https://www.npmjs.com/package/flatlist-react
+      }
       <FlatList
         list={
           []
